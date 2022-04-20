@@ -6,7 +6,7 @@ const NewMeetups = (prop) => {
     const history = useNavigate();
 
     function addMeetupHandler(meetupData) {
-        const f = fetch('https://react-meetup-app-7fc47-default-rtdb.europe-west1.firebasedatabase.app/meetups.json',
+        const f = fetch('',
             {
                 method: 'POST',
                 body: JSON.stringify(meetupData),

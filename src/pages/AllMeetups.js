@@ -31,7 +31,7 @@ const AllMeetupsPage = () => {
 
     useEffect(() => {
         setIsLoading(true);
-        fetch('https://react-meetup-app-7fc47-default-rtdb.europe-west1.firebasedatabase.app/meetups/.json').then(res => {
+        fetch('').then(res => {
             return res.json();
         }).then(data => {
             const meetupData = [];
